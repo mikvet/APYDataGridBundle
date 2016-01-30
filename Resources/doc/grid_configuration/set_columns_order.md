@@ -24,7 +24,7 @@ Initial columns : Column1, Column2, Column3, Column4, Column5
 
 ```php
 $userColumns = array('Column2', 'Column5', 'Column1');
-$grid->setColumnsOrder(userColumns);
+$grid->setColumnsOrder($userColumns);
 ```
 
 The new order will be : Column2, Column5, Column1, Column3, Column4
